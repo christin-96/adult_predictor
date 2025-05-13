@@ -4,7 +4,7 @@
 import pandas as pd
 import numpy as np
 
-from xgboost.sklearn import XGBClassifier
+from sklearn.linear_model import LogisticRegression
 import streamlit as st
 import pickle
 
